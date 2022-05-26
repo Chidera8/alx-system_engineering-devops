@@ -4,3 +4,4 @@ This script prints all the groups the current user is part of: id -Gn
 This script changes the owner of the file hello to the user betty: chown betty hello 
 This script creates an empty file called hello: touch hello
 This script adds execute permission to the owner of the file hello: chmod u+x hello
+This script adds execute permission to the owner and the group owner, and read permission to other users, to the file hello: chmod ug+x,o+r hello
