@@ -9,4 +9,6 @@ This script adds execution permission to the owner, the group owner and the othe
 This script sets the permission to the file hello as follows:
 Owner: no permission at all, Group: no permission at all, Other users: all the permissions; chmod 007 hello
 This script sets the mode of the file hello to ...: chmod 753 hello
+This script sets the mode of the file hello the same as olleh’s mode: chmod --reference=olleh hello
+
 
