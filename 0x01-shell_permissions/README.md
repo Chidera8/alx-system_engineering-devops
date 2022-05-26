@@ -11,6 +11,7 @@ Owner: no permission at all, Group: no permission at all, Other users: all the p
 This script sets the mode of the file hello to ...: chmod 753 hello
 This script sets the mode of the file hello the same as olleh’s mode: chmod --reference=olleh hello
 This script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users: chmod -R +X .
+This script creates a directory called my_dir with permissions 751 in the working directory: mkdir -m 751 my_dir
 
 
 
