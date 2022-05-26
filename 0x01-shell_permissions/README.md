@@ -8,4 +8,5 @@ This script adds execute permission to the owner and the group owner, and read p
 This script adds execution permission to the owner, the group owner and the other users, to the file hello: chmod ugo+x hello
 This script sets the permission to the file hello as follows:
 Owner: no permission at all, Group: no permission at all, Other users: all the permissions; chmod 007 hello
+This script sets the mode of the file hello to ...: chmod 753 hello
 
