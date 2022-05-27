@@ -15,4 +15,6 @@ This script creates a directory called my_dir with permissions 751 in the workin
 
 This script changes the group owner to school for the file hello: chgrp school hello
 
-This script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+This script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.: chown vincent:staff *
+
+
